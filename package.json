@@ -1,6 +1,6 @@
 {
   "name": "destglob",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Small utility to generate a dest glob from a glob and a dest",
   "main": "lib/destglob.js",
   "scripts": {
