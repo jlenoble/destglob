@@ -2,7 +2,17 @@ import path from 'path';
 
 function singleDestglob (glb, dest, base = process.cwd()) {
   let a = glb.split('**');
+  const neg = a[0][0] === '!';
+
+  if (neg) {
+    a[0] = a[0].substring(1);
+  }
+
   a[0] = path.join(dest, path.relative(base, a[0]));
+
+  if (neg) {
+    a[0] = '!' + a[0];
+  }
 
   if (a.length === 1) {
     return a[0];

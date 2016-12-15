@@ -54,6 +54,10 @@ describe('Testing destglob', function() {
     {
       glob: ['src/../*.js', 'test/../**/*.js'],
       result: ['build/*.js', 'build/**/*.js']
+    },
+    {
+      glob: ['gulp/*.js', '!gulp/clean.js'],
+      result: ['build/gulp/*.js', '!build/gulp/clean.js']
     }
   ].forEach(test => {
 
