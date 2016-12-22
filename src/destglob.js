@@ -21,9 +21,9 @@ function singleDestglob (glb, dest, base = process.cwd()) {
   }
 }
 
-export default function destglob (glob, dest) {
+export default function destglob (glob, dest, base) {
   if (Array.isArray(glob)) {
-    return glob.map(glb => singleDestglob(glb, dest));
+    return glob.map(glb => singleDestglob(glb, dest, base));
   }
-  return [singleDestglob(glob, dest)];
+  return [singleDestglob(glob, dest, base)];
 }
