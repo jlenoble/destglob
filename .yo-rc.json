@@ -1,16 +1,32 @@
 {
   "generator-wupjs": {
-    "module": "destglob",
-    "description": "Small utility to generate a dest glob from a glob and a dest",
-    "author": "Jason Lenoble",
-    "email": "jason.lenoble@gmail.com",
-    "github": "jlenoble",
-    "license": "MIT",
-    "transpile": "es2015",
-    "addons": [],
-    "Class": "Destglob",
-    "updated": 2017,
-    "created": 2016,
-    "year": "2016-2017"
+    "createdWith": "0.2.2",
+    "modifiedWith": "0.6.0-10",
+    "createdOn": "2016-12-15T00:09:10.094Z",
+    "modifiedOn": "2020-12-08T14:53:36.403Z",
+    "gulp": true,
+    "srcDir": "src",
+    "testDir": "test",
+    "buildDir": "build",
+    "docDir": "docs",
+    "libDir": "lib",
+    "gulpDir": "gulp",
+    "typescript": true,
+    "jsx": false,
+    "extensions": [
+      "ts"
+    ],
+    "jupyter": false,
+    "antlr4": false,
+    "server": true,
+    "client": false,
+    "devModuleTypes": [
+      "ES6"
+    ],
+    "prodModuleTypes": [
+      "CommonJS"
+    ],
+    "monorepo": false,
+    "hasGulpfilesDir": false
   }
 }

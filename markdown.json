@@ -1,0 +1,7 @@
+{
+  "build": "README.md",
+  "files": ["docs/index.md"],
+  "tableOfContents": {
+    "heading": "# destglob\n\nSmall utility to generate a dest glob from a glob and a dest"
+  }
+}
